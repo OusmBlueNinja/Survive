@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 
+
 void delay(int number_of_seconds)
 {
     // Converting time into milli_seconds
@@ -13,4 +14,5 @@ void delay(int number_of_seconds)
     while (clock() < start_time + milli_seconds);
 }
 
-//void ()
+
+

@@ -8,13 +8,15 @@
 
 
 int main(int argc, char **argv) {
-	printf("Hello world!\n");
+	printf("Starting\n");
 	delay(2);
 	int i = 10;
 	for ( i = 10; i > 0; i = i - 1 ){    
 		system("cls");
    
-	  printf("%d \n", i);
+	  printf("%d   ", i);
+		int random_number = rand() % 9999;
+		printf("%d", random_number);
 	  delay(1);
 	}
 	
