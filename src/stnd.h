@@ -14,5 +14,6 @@ void delay(int number_of_seconds)
     while (clock() < start_time + milli_seconds);
 }
 
-
-
+int add(int n1, int n2) {
+    return n1 + n2;
+}
