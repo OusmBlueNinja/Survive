@@ -62,7 +62,7 @@ int main(int argc, char **argv) {
 
 	
 
-	delay(0.999);
+	delay(0.5);
 	}
 	
 

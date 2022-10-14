@@ -56,3 +56,17 @@ int badPlayerpos(int playerPos, int Frame[], int player) {
     
 
 }
+
+void move(int playerPos, int Frame[], int player, int direction) {
+    if (direction == 1) { //up
+
+    } else if (direction == 2) {//down
+
+    } else if (direction == 3) {//left
+
+    } else if (direction == 4) {//right
+
+    }
+    
+
+}
