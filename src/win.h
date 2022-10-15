@@ -6,7 +6,6 @@ void printFrame(int Frame[]) {
   int i;
   int y = 0;
   int DEBUG = 0;
-  system("cls");
   for (i = 0; i< 400; i++) {
     if (y == 20) {
       y = 0;
